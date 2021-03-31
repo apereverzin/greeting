@@ -1,0 +1,11 @@
+npm install -g truffle
+truffle init
+npm install -g solc
+solc --version
+
+mkdir client
+cd client
+npm init -y
+npm i web3 --save
+npm i lite-server --save-dev //for running a development server
+npm i jquery
